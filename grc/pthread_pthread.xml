@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<block>
+  <name>pthread</name>
+  <key>pthread_pthread</key>
+  <category>[pthread]</category>
+  <import>import pthread</import>
+  <make>pthread.pthread()</make>
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>
