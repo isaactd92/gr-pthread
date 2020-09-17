@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_ea2be030643fc1e87f5891d42e7acc4b" kind="dir">
+    <compoundname>pthread</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="pthread_8h">pthread.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/itupac/OutOfTree-gnuradio/gr-pthread/include/pthread/"/>
+  </compounddef>
+</doxygen>

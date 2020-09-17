@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1pthread_1_1pthread__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::pthread::pthread_impl</compoundname>
+    <basecompoundref refid="classgr_1_1pthread_1_1pthread" prot="public" virt="non-virtual">gr::pthread::pthread</basecompoundref>
+    <includes refid="pthread__impl_8h" local="no">pthread_impl.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1pthread_1_1pthread__impl_1a7f290c64c1e0bd2cfa2c50abcaa99bdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::pthread::pthread_impl::pthread_impl</definition>
+        <argsstring>()</argsstring>
+        <name>pthread_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-pthread/lib/pthread_impl.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1pthread_1_1pthread__impl_1ac28fe9fa3703a0258dd725e71056380a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::pthread::pthread_impl::~pthread_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~pthread_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-pthread/lib/pthread_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1pthread_1_1pthread__impl_1abd3cf4ce94a1b93093ec908ad258d419" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::pthread::pthread_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-pthread/lib/pthread_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1pthread_1_1pthread__impl_1a7d91a9a01504f327e2cb5ffb2fae5910" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::pthread::pthread_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/itupac/OutOfTree-gnuradio/gr-pthread/lib/pthread_impl.h" line="41" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>gr::pthread::pthread_impl</label>
+        <link refid="classgr_1_1pthread_1_1pthread__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>gr::pthread::pthread</label>
+        <link refid="classgr_1_1pthread_1_1pthread"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8">
+        <label>gr::pthread::pthread_impl</label>
+        <link refid="classgr_1_1pthread_1_1pthread__impl"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>gr::pthread::pthread</label>
+        <link refid="classgr_1_1pthread_1_1pthread"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/itupac/OutOfTree-gnuradio/gr-pthread/lib/pthread_impl.h" line="30" column="1" bodyfile="/home/itupac/OutOfTree-gnuradio/gr-pthread/lib/pthread_impl.h" bodystart="29" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classgr_1_1pthread_1_1pthread__impl_1abd3cf4ce94a1b93093ec908ad258d419" prot="public" virt="non-virtual"><scope>gr::pthread::pthread_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1pthread_1_1pthread__impl_1a7d91a9a01504f327e2cb5ffb2fae5910" prot="public" virt="non-virtual"><scope>gr::pthread::pthread_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1pthread_1_1pthread_1aa9588de758548d9cef9b10b33a52883c" prot="public" virt="non-virtual"><scope>gr::pthread::pthread_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1pthread_1_1pthread__impl_1a7f290c64c1e0bd2cfa2c50abcaa99bdc" prot="public" virt="non-virtual"><scope>gr::pthread::pthread_impl</scope><name>pthread_impl</name></member>
+      <member refid="classgr_1_1pthread_1_1pthread_1ab19597f531b6f31cc796a3779915f3a1" prot="public" virt="non-virtual"><scope>gr::pthread::pthread_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1pthread_1_1pthread__impl_1ac28fe9fa3703a0258dd725e71056380a" prot="public" virt="non-virtual"><scope>gr::pthread::pthread_impl</scope><name>~pthread_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
